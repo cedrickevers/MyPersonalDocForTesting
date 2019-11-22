@@ -37,13 +37,64 @@ Web Table / HTML table
 Frame ex...
  
 
-Methods on browser
+A Methods on browser
 
 1 get()
 2 getTitle()
 3 getPageSource()
 4 getwindowHandle()
-6() close()
+6 close()
+7 quit()
+-------------
+
+B Brower navigation methods
+
+1 navigate()->to()
+2 navigate()->back()
+3 navigate ()->foward()
+4 navigate->refresh()
+
+C methods on elements
+
+1 findElement()
+2 findElements()
+3 sendkeys()
+4 clear()
+5 click()
+6 isDiplayed()
+8 isSelected()
+9 getText()
+10) getAttribute()
+
+d) others
+
+1) manage->windows-maximize
+2 explicitlywaot()
+
+
+Handling Elements in Selenium
+----------------------------
+
+1) Handling Browser
+
+Operations on browser :
+
+Launch the browser
+Navigate to specified url
+return current url
+get the page title
+return page source
+return window handle
+close focused browser
+close all browser all the browser opened by selenium webdriver after execution
+---------
+Navigate to another url
+navigate back to previous url
+navigate forward
+refresh the browser
+maximize the browsr window
+
+
 
 
 
