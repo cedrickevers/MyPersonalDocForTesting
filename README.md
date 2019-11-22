@@ -1,5 +1,59 @@
 # MyPersonalDocForTesting
 
+comment  créer des tests dans Seleniums 3 pré requis
+
+
+1 elements locators pour identifier, selectionner un element.
+web driver method pour  intéragir et faire des opeation sur l'élément.
+Programming features ( to enhance Test Cases)
+
+Elements locators :
+Selenium supports 8 elements locators
+
+1 id
+2 name
+3 className
+4 tagName
+5 linkText
+6pariallLinkText
+7 cssSelector
+8 Xpath
+
+Web elements
+Browser -driver object
+-----------
+Link
+button
+image, image Button, image link
+Edit box,
+Text Area
+Check box
+Radio Button
+Drop down box
+List box
+Combo box
+Combo Box
+Web Table / HTML table
+Frame ex...
+ 
+
+Methods on browser
+
+1 get()
+2 getTitle()
+3 getPageSource()
+4 getwindowHandle()
+6() close()
+
+
+
+
+
+
+
+
+
+
 
 
 ce qui est nouveau avec selenium 3.0
