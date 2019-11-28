@@ -15,7 +15,7 @@ Selenium supports 8 elements locators
 3 className
 4 tagName
 5 linkText
-6pariallLinkText
+6 partiallLinkText
 7 cssSelector
 8 Xpath
 
