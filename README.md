@@ -15,7 +15,7 @@ Selenium supports 8 elements locators
 3 className
 4 tagName
 5 linkText
-6 partiallLinkText
+6 partiallLinkText https://www.guru99.com/locate-by-link-text-partial-link-text.html
 7 cssSelector
 8 Xpath
 
