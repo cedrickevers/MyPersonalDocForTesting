@@ -96,9 +96,16 @@ maximize the browsr window
 
 
 
+ExplicitWait 
 
+$driver->wait()->until(
+    function () use ($driver) {
+        $elements = $driver->findElements(WebDriverBy::cssSelector('li.foo'));
 
-
+        return count($elements) > 5;
+    },
+    'Error locating more than five elements'
+);
 
 
 
